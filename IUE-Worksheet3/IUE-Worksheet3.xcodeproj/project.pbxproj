@@ -14,6 +14,8 @@
 		1B1F9FBB234E656200B00369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1F9FB9234E656200B00369 /* LaunchScreen.storyboard */; };
 		1B1F9FC6234E656200B00369 /* IUE_Worksheet3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1F9FC5234E656200B00369 /* IUE_Worksheet3Tests.swift */; };
 		1B1F9FD1234E656200B00369 /* IUE_Worksheet3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1F9FD0234E656200B00369 /* IUE_Worksheet3UITests.swift */; };
+		1BB233AB2357A7E400177677 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB233AA2357A7E400177677 /* PhotosCollectionViewController.swift */; };
+		1BB233AD2357A83D00177677 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB233AC2357A83D00177677 /* PhotoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1B1F9FCC234E656200B00369 /* IUE-Worksheet3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IUE-Worksheet3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1F9FD0234E656200B00369 /* IUE_Worksheet3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IUE_Worksheet3UITests.swift; sourceTree = "<group>"; };
 		1B1F9FD2234E656200B00369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BB233AA2357A7E400177677 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		1BB233AC2357A83D00177677 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 			children = (
 				1B1F9FC5234E656200B00369 /* IUE_Worksheet3Tests.swift */,
 				1B1F9FC7234E656200B00369 /* Info.plist */,
+				1BB233AA2357A7E400177677 /* PhotosCollectionViewController.swift */,
+				1BB233AC2357A83D00177677 /* PhotoCollectionViewCell.swift */,
 			);
 			path = "IUE-Worksheet3Tests";
 			sourceTree = "<group>";
@@ -266,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B1F9FC6234E656200B00369 /* IUE_Worksheet3Tests.swift in Sources */,
+				1BB233AB2357A7E400177677 /* PhotosCollectionViewController.swift in Sources */,
+				1BB233AD2357A83D00177677 /* PhotoCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
